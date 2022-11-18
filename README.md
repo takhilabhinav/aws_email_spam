@@ -8,4 +8,11 @@
 -Deploy the resulting model to an endpoint (E1).  
 
 
+## Implement an automatic spam tagging system.
+-Create an S3 bucket (S1) that will store email files...
+
+-Using SES, set up an email address, that upon receipt of an email it stores it in S3.  
+
+-Confirm that the workflow is working by sending an email to that email address and seeing if the email information ends up in S3.  
+
 ## 
