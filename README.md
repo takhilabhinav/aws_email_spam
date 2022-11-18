@@ -15,4 +15,18 @@
 
 -Confirm that the workflow is working by sending an email to that email address and seeing if the email information ends up in S3.  
 
+-For any new email file that is stored in S3, trigger a Lambda function (LF1) that extracts the body of the email and uses the prediction endpoint (E1) to predict if the email is spam or not.
+
+-You might want to strip out new line characters “\n” in the email body, to match the data format in the SMS dataset that the ML model was trained on.
+
+-Reply to the sender of the email (it could be your email, the TA’s etc.) with a message as follows:
+“We received your email sent at [EMAIL_RECEIVE_DATE] with the subject [EMAIL_SUBJECT].  
+
+Here is a 240 character sample of the email body: [EMAIL_BODY]. 
+
+The email was categorized as [CLASSIFICATION] with a [CLASSIFICATION_CONFIDENCE_SCORE]% confidence.”  
+
+Replace each variable “[VAR]” with the corresponding value from the email and the prediction.  
+
+
 ## 
