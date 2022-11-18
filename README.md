@@ -36,6 +36,12 @@ Replace each variable “[VAR]” with the corresponding value from the email an
 
 ![alt text](https://github.com/takhilabhinav/aws_email_spam/blob/main/Architecture/Screen%20Shot%202022-11-17%20at%2011.20.27%20PM.png)
 
+## Cloud Formation
+![alt text](https://github.com/takhilabhinav/aws_email_spam/blob/main/Architecture/Screen%20Shot%202022-11-17%20at%2011.28.42%20PM.png)
+
+## Receiving Emails in S3 
+![alt text](https://github.com/takhilabhinav/aws_email_spam/blob/main/Architecture/Screen%20Shot%202022-11-17%20at%2011.28.19%20PM.png)
+
 ## Output Email
 ![alt text](https://github.com/takhilabhinav/aws_email_spam/blob/main/Architecture/Screen%20Shot%202022-11-17%20at%2011.23.20%20PM.png)
 
