@@ -29,4 +29,10 @@ The email was categorized as [CLASSIFICATION] with a [CLASSIFICATION_CONFIDENCE_
 Replace each variable “[VAR]” with the corresponding value from the email and the prediction.  
 
 
-## 
+## Create an AWS CloudFormation template for the automatic spam tagging system.
+
+-Create a CloudFormation template (T1) to represent all the infrastructure resources (ex. Lambda, SES configuration, etc.) and permissions (IAM policies, roles, etc.).
+
+## Architecture DIagram 
+
+https://github.com/takhilabhinav/aws_email_spam/blob/main/Architecture/Screen%20Shot%202022-11-17%20at%2011.20.27%20PM.png
